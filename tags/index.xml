@@ -6,7 +6,7 @@
     <description>Recent content in Tags on :::김도령의 우당탕탕 Lab실:::</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 22 Feb 2021 05:34:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Feb 2021 06:03:33 +0900</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>Lab-301</title>
       <link>/tags/lab-301/</link>
-      <pubDate>Mon, 22 Feb 2021 05:34:06 +0900</pubDate>
+      <pubDate>Tue, 23 Feb 2021 06:03:33 +0900</pubDate>
       
       <guid>/tags/lab-301/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>누가복음</title>
+      <link>/tags/%EB%88%84%EA%B0%80%EB%B3%B5%EC%9D%8C/</link>
+      <pubDate>Tue, 23 Feb 2021 06:03:33 +0900</pubDate>
+      
+      <guid>/tags/%EB%88%84%EA%B0%80%EB%B3%B5%EC%9D%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>신약성경</title>
+      <link>/tags/%EC%8B%A0%EC%95%BD%EC%84%B1%EA%B2%BD/</link>
+      <pubDate>Tue, 23 Feb 2021 06:03:33 +0900</pubDate>
+      
+      <guid>/tags/%EC%8B%A0%EC%95%BD%EC%84%B1%EA%B2%BD/</guid>
       <description></description>
     </item>
     
@@ -26,15 +44,6 @@
       <pubDate>Mon, 22 Feb 2021 05:34:06 +0900</pubDate>
       
       <guid>/tags/%EA%B3%A0%EB%A6%B0%EB%8F%84%ED%9B%84%EC%84%9C/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>신약성경</title>
-      <link>/tags/%EC%8B%A0%EC%95%BD%EC%84%B1%EA%B2%BD/</link>
-      <pubDate>Mon, 22 Feb 2021 05:34:06 +0900</pubDate>
-      
-      <guid>/tags/%EC%8B%A0%EC%95%BD%EC%84%B1%EA%B2%BD/</guid>
       <description></description>
     </item>
     
