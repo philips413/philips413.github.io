@@ -6,10 +6,28 @@
     <description>Recent content in Tags on :::김도령의 우당탕탕 Lab실:::</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 23 Feb 2021 06:03:33 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Feb 2021 22:35:34 +0900</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lab-101</title>
+      <link>/tags/lab-101/</link>
+      <pubDate>Tue, 23 Feb 2021 22:35:34 +0900</pubDate>
+      
+      <guid>/tags/lab-101/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>책리뷰</title>
+      <link>/tags/%EC%B1%85%EB%A6%AC%EB%B7%B0/</link>
+      <pubDate>Tue, 23 Feb 2021 22:35:34 +0900</pubDate>
+      
+      <guid>/tags/%EC%B1%85%EB%A6%AC%EB%B7%B0/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Lab-301</title>
@@ -53,24 +71,6 @@
       <pubDate>Thu, 04 Feb 2021 06:03:54 +0900</pubDate>
       
       <guid>/tags/%EA%B3%A0%EB%A6%B0%EB%8F%84%EC%A0%84%EC%84%9C/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lab-101</title>
-      <link>/tags/lab-101/</link>
-      <pubDate>Sat, 23 Jan 2021 22:18:06 +0900</pubDate>
-      
-      <guid>/tags/lab-101/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>책리뷰</title>
-      <link>/tags/%EC%B1%85%EB%A6%AC%EB%B7%B0/</link>
-      <pubDate>Sat, 23 Jan 2021 22:18:06 +0900</pubDate>
-      
-      <guid>/tags/%EC%B1%85%EB%A6%AC%EB%B7%B0/</guid>
       <description></description>
     </item>
     
