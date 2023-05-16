@@ -6,7 +6,16 @@
     <description>Recent content in Categories on PHILIPS&#39;413의 기억을 저장하는 곳</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 May 2023 23:50:28 +0900</lastBuildDate><atom:link href="https://philips413.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 21:42:25 +0900</lastBuildDate><atom:link href="https://philips413.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>독서</title>
+      <link>https://philips413.github.io/categories/%EB%8F%85%EC%84%9C/</link>
+      <pubDate>Tue, 16 May 2023 21:42:25 +0900</pubDate>
+      
+      <guid>https://philips413.github.io/categories/%EB%8F%85%EC%84%9C/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>기술</title>
       <link>https://philips413.github.io/categories/%EA%B8%B0%EC%88%A0/</link>
@@ -22,15 +31,6 @@
       <pubDate>Fri, 05 May 2023 08:00:00 +0900</pubDate>
       
       <guid>https://philips413.github.io/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>독서</title>
-      <link>https://philips413.github.io/categories/%EB%8F%85%EC%84%9C/</link>
-      <pubDate>Thu, 20 Apr 2023 00:33:30 +0900</pubDate>
-      
-      <guid>https://philips413.github.io/categories/%EB%8F%85%EC%84%9C/</guid>
       <description></description>
     </item>
     
