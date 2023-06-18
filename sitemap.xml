@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://philips413.github.io/post/book/book_2023061601/</loc>
-    <lastmod>2023-06-16T23:42:52+09:00</lastmod>
+    <loc>https://philips413.github.io/post/essay/essay_2023061801/</loc>
+    <lastmod>2023-06-18T22:59:44+09:00</lastmod>
   </url><url>
     <loc>https://philips413.github.io/categories/</loc>
-    <lastmod>2023-06-16T23:42:52+09:00</lastmod>
+    <lastmod>2023-06-18T22:59:44+09:00</lastmod>
   </url><url>
     <loc>https://philips413.github.io/</loc>
-    <lastmod>2023-06-16T23:42:52+09:00</lastmod>
+    <lastmod>2023-06-18T22:59:44+09:00</lastmod>
   </url><url>
     <loc>https://philips413.github.io/post/</loc>
-    <lastmod>2023-06-16T23:42:52+09:00</lastmod>
+    <lastmod>2023-06-18T22:59:44+09:00</lastmod>
   </url><url>
     <loc>https://philips413.github.io/tags/</loc>
+    <lastmod>2023-06-18T22:59:44+09:00</lastmod>
+  </url><url>
+    <loc>https://philips413.github.io/tags/%EC%97%90%EC%84%B8%EC%9D%B4/</loc>
+    <lastmod>2023-06-18T22:59:44+09:00</lastmod>
+  </url><url>
+    <loc>https://philips413.github.io/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</loc>
+    <lastmod>2023-06-18T22:59:44+09:00</lastmod>
+  </url><url>
+    <loc>https://philips413.github.io/post/book/book_2023061601/</loc>
     <lastmod>2023-06-16T23:42:52+09:00</lastmod>
   </url><url>
     <loc>https://philips413.github.io/tags/%EA%B3%BC%ED%95%99/</loc>
@@ -27,12 +36,6 @@
     <lastmod>2023-06-16T23:42:52+09:00</lastmod>
   </url><url>
     <loc>https://philips413.github.io/post/essay/essay_2023061101/</loc>
-    <lastmod>2023-06-11T22:26:57+09:00</lastmod>
-  </url><url>
-    <loc>https://philips413.github.io/tags/%EC%97%90%EC%84%B8%EC%9D%B4/</loc>
-    <lastmod>2023-06-11T22:26:57+09:00</lastmod>
-  </url><url>
-    <loc>https://philips413.github.io/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</loc>
     <lastmod>2023-06-11T22:26:57+09:00</lastmod>
   </url><url>
     <loc>https://philips413.github.io/post/essay/essay_2023060401/</loc>
