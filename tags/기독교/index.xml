@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>기독교 on PHILIPS&#39;413의 기억을 저장하는 곳</title>
-    <link>https://philips413.github.io/tags/%EA%B8%B0%EB%8F%85%EA%B5%90/</link>
+    <link>http://localhost:1313/tags/%EA%B8%B0%EB%8F%85%EA%B5%90/</link>
     <description>Recent content in 기독교 on PHILIPS&#39;413의 기억을 저장하는 곳</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
     <lastBuildDate>Tue, 16 May 2023 21:42:25 +0900</lastBuildDate>
-    <atom:link href="https://philips413.github.io/tags/%EA%B8%B0%EB%8F%85%EA%B5%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%EA%B8%B0%EB%8F%85%EA%B5%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[독서록] 오두막</title>
-      <link>https://philips413.github.io/post/book/book_2023051601/</link>
+      <link>http://localhost:1313/post/book/book_2023051601/</link>
       <pubDate>Tue, 16 May 2023 21:42:25 +0900</pubDate>
-      <guid>https://philips413.github.io/post/book/book_2023051601/</guid>
+      <guid>http://localhost:1313/post/book/book_2023051601/</guid>
       <description>소개 받은 책 교회친구들과 함께 근황 및 여러주제로 이야기를 하던 중에 한 친구가 영화 “오두막”을 굉장히 감동적이게 봤다는 고백하면서 영화가 원래 소설 원작이라는 이야기를 했다. 그리고 다른 친구는 책으로 보았을 때에 더 큰 감동이 있어서 책을 꼭 볼 것을 추천했다.&#xA;추천해주는 책이라면 왠만하면 읽어보는 편이라서 큰 고민 없이 바로 알라딘 사이트로 가서 구매했다. 읽고 있는 책들이 있어서 이 책은 후순위로 밀리다가 최근에 선택해서 읽어 보기로 결정했다.&#xA;유난히 재수가 없었던 그 날들 잔뜩 흐리고 바람 또한 많이 부는 그 날에 우편함에 날아온 쪽지에서부터 시작된다.</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>생활/여가 on PHILIPS&#39;413의 기억을 저장하는 곳</title>
-    <link>https://philips413.github.io/categories/%EC%83%9D%ED%99%9C/%EC%97%AC%EA%B0%80/</link>
+    <link>http://localhost:1313/categories/%EC%83%9D%ED%99%9C/%EC%97%AC%EA%B0%80/</link>
     <description>Recent content in 생활/여가 on PHILIPS&#39;413의 기억을 저장하는 곳</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://philips413.github.io/categories/%EC%83%9D%ED%99%9C/%EC%97%AC%EA%B0%80/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%EC%83%9D%ED%99%9C/%EC%97%AC%EA%B0%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[쀼의세계]EP1. 결혼결심</title>
-      <link>https://philips413.github.io/post/family/family_2024033101/</link>
+      <link>http://localhost:1313/post/family/family_2024033101/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://philips413.github.io/post/family/family_2024033101/</guid>
+      <guid>http://localhost:1313/post/family/family_2024033101/</guid>
       <description>결혼결심 먼저 결혼한 사람들이 말한다.&#xA;연애를 하다가 보면은 결혼해야겠다는 착각이 드는데 그때를 조심해야해!&#xA;_결혼 선배가&#xA;그들이 말하던 순간을 지나왔고, 우리는 24년 3월 23 서로를 평생 사랑하겠노라고 약속했다.&#xA;사랑을 하고 연애를 하고, 결혼이라는 것은 과연 무엇일까? 나는 왜 결혼하게 되었을까?&#xA;내가 왜 유민이와 결혼해야겠다는 생각을 하게 되었는 지 블로그에 작성해서 박제? 하고자 한다.&#xA;1. 대화하는 맛 시작부터가 우린 장거리 커플이다.&#xA;유민이는 굉장히 좋은 드립력을 가지고 있다고 생각해서, 대화를 할 때마다 티키타카가 좋을 것이라고 생각했었지만 그것은 나의 착각이었다.</description>
     </item>
   </channel>
