@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on PHILIPS&#39;413의 기억을 저장하는 곳</title>
+    <title>Categories on PHILIPS&#39;413의 별로 안 진지한 블로그</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on PHILIPS&#39;413의 기억을 저장하는 곳</description>
+    <description>Recent content in Categories on PHILIPS&#39;413의 별로 안 진지한 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
-    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2024 23:46:50 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>에세이</title>
+      <link>http://localhost:1313/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</link>
+      <pubDate>Sun, 07 Apr 2024 23:46:50 +0700</pubDate>
+      <guid>http://localhost:1313/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</guid>
+      <description></description>
+    </item>
     <item>
       <title>생활/여가</title>
       <link>http://localhost:1313/categories/%EC%83%9D%ED%99%9C/%EC%97%AC%EA%B0%80/</link>
@@ -21,13 +28,6 @@
       <link>http://localhost:1313/categories/%EA%B8%B0%EB%8F%85%EA%B5%90/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/%EA%B8%B0%EB%8F%85%EA%B5%90/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>에세이</title>
-      <link>http://localhost:1313/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</link>
-      <pubDate>Sun, 19 Nov 2023 23:43:56 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</guid>
       <description></description>
     </item>
     <item>

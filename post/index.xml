@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on PHILIPS&#39;413의 기억을 저장하는 곳</title>
+    <title>Posts on PHILIPS&#39;413의 별로 안 진지한 블로그</title>
     <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on PHILIPS&#39;413의 기억을 저장하는 곳</description>
+    <description>Recent content in Posts on PHILIPS&#39;413의 별로 안 진지한 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
-    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2024 23:46:50 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[쀼의세계]EP1. 결혼결심</title>
+      <title>[에세이] 가벼운 마음으로</title>
+      <link>http://localhost:1313/post/essay/essay_2024040701/</link>
+      <pubDate>Sun, 07 Apr 2024 23:46:50 +0700</pubDate>
+      <guid>http://localhost:1313/post/essay/essay_2024040701/</guid>
+      <description>가벼운 마음으로 원래부터 모든 것을 시작할 때 가볍게 생각하는 편이다.&#xA;블로그를 시작할 때에도 가볍게 나의 생각을 전달하고, 혹은 피드백 받고자 하는 마음에서 시작했다.&#xA;글을 쓰다 보니까 톤이 무거워 지고, 진지해지는 나의 모습이 싫었다.&#xA;나의 가장 큰 장점은 편안하다는 데 있다.&#xA;이러한 큰 장점을 살려서 모든 이들에게 편안을 제공해주고 싶다.</description>
+    </item>
+    <item>
+      <title>결혼결심</title>
       <link>http://localhost:1313/post/family/family_2024033101/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/family/family_2024033101/</guid>
