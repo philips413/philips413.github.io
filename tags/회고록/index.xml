@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>회고록 on PHILIPS&#39;413의 별로 안 진지한 블로그</title>
-    <link>http://localhost:1313/tags/%ED%9A%8C%EA%B3%A0%EB%A1%9D/</link>
+    <link>https://philips413.github.io/tags/%ED%9A%8C%EA%B3%A0%EB%A1%9D/</link>
     <description>Recent content in 회고록 on PHILIPS&#39;413의 별로 안 진지한 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
-    <lastBuildDate>Thu, 01 Jun 2023 21:58:33 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%ED%9A%8C%EA%B3%A0%EB%A1%9D/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://philips413.github.io/tags/%ED%9A%8C%EA%B3%A0%EB%A1%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[회고록] 2023년 5월-🌈각양각색</title>
-      <link>http://localhost:1313/post/retro/retro_2023060101/</link>
-      <pubDate>Thu, 01 Jun 2023 21:58:33 +0900</pubDate>
-      <guid>http://localhost:1313/post/retro/retro_2023060101/</guid>
+      <link>https://philips413.github.io/post/retro/retro_2023060101/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://philips413.github.io/post/retro/retro_2023060101/</guid>
       <description>5월에는 날씨가 풀려서 정말 여름과도 같은 날씨를 만끽했다. 놀러가기 좋은 날들이 이어졌고, 정말 일하기에 아까운 날들이 많이 있었지만 프로젝트가 한창인 지금은 밖으로 나가서 놀기엔 너무 바쁜 나날들이 이어져갔다. 프로젝트와 상관없이 나는 늘 더 나아질 것에 대해서 고민한다. 어떻게 하면 재밌게 개발을 할수 있을 지와 프로젝트를 즐겁게 잘 마무리 할수 있을 지에 대해서 말이다.&#xA;즐겁게 일하고자 하지만 많은 이해관계들이 얽혀있는 프로젝트 특성상 그렇게 순탄하게 일들이 흘러가진 않았던것 같고 지금도 마찬가지인 상황이다. 그럼에도 불구하고 퇴근 후의 나의 삶과 글쓰기를 계속 하고자 하는 나의 삶은 계속 발전하고 다듬어 가면서 나를 단련하도록 하자</description>
     </item>
   </channel>

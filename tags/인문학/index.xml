@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>인문학 on PHILIPS&#39;413의 별로 안 진지한 블로그</title>
-    <link>http://localhost:1313/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/</link>
+    <link>https://philips413.github.io/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/</link>
     <description>Recent content in 인문학 on PHILIPS&#39;413의 별로 안 진지한 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
-    <lastBuildDate>Thu, 20 Apr 2023 00:33:30 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://philips413.github.io/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[독서록] 대화의 밀도</title>
-      <link>http://localhost:1313/post/book/book_2023050501/</link>
-      <pubDate>Thu, 20 Apr 2023 00:33:30 +0900</pubDate>
-      <guid>http://localhost:1313/post/book/book_2023050501/</guid>
+      <link>https://philips413.github.io/post/book/book_2023050501/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://philips413.github.io/post/book/book_2023050501/</guid>
       <description>생일선물 이기주의 시리즈로도 충분히 대화와 어떻게 말을 해야하는지에 대한 트레이닝(?)을 잘 해오고 있다고 생각했다. 생각지도 못한 생일선물로 새로운 책을 받았고, 나는 이책을 통해서 대화라던지 커뮤니케이션에 대해서 배워보고자 한다.&#xA;사실 최근들어서 나의 커뮤니케이션에 문제가 있다고 생각이 든것도 좀 있다. 마인드의 문제 일수도 있지만, 누군가와 대화를 잘 하기가 어렵다. 책을 통해서 타인과 대화함에 있어서 문제를 해결해보고자 한다.&#xA;상대방과 대화하기 #1 말하는 것보다 들어주기 작가는 상대방과 말하는 것에 대한 비율은 7:3이라고한다. 말하는 것이 7이 아닌 들어주는 것이 7이며 말하는 것이 3인 비율로써 상대방과 대화를 해야한다고 한다.</description>
     </item>
   </channel>
