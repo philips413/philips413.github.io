@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>MSA구조 커뮤니티 시스템 구축하기 :: PHILIPS&#39;413의 별로 안 진지한 블로그 - Example site for hugo-theme-tailwind</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="좀이 쑤셔서 혼자 북치고 장구치기 한 달간의 쉼이 주어지고 나서, 이 전에 쉬면서 하지 못했던 것들을 서서히 완수해 나아갔다.
+수영하기, 멍때리기, 책 읽기, 사람구경하기, 해외여행하기 등등&amp;hellip;
+혼자 북치고 장구치는 토이프로젝트를 시작해볼려고 한다.
+MSA 구조의 커뮤니티 시스템 구축 레퍼런스 사이트로는 디시인사이드 로 두고, 오픈 커뮤니티 시스템을 구축해보고 싶어졌다.
+거기에 맞는 나만의 정책들과 요구사항들을 더해서 만들어볼 생각이다.
+그럼 요구청사항부터 받아보자
+클라이언트 관점에서 요청하기 관리자 사이트와 클라이언 사이트가 별도로 존재하면 좋겠다. 관리자 사이트에서 회원 등급들을 조정할수 있다."
+/>
+<meta
+  name="keywords"
+  content="hugo, tailwind, tailwindcss, hugo theme, hugo theme tailwind"
+/>
+<meta name="robots" content="noodp" />
+<meta property="og:title" content="MSA구조 커뮤니티 시스템 구축하기" />
+<meta property="og:description" content="프로그래밍을 한 지, 한 달이 지나가고 있어서 좀이 쑤셔서 혼자 토이프로젝트를 구성해서 만들어 보기로 했다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://philips413.github.io/post/tech/tech_2024041501/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-04-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-15T00:00:00+00:00" />
+
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="MSA구조 커뮤니티 시스템 구축하기"/>
+<meta name="twitter:description" content="프로그래밍을 한 지, 한 달이 지나가고 있어서 좀이 쑤셔서 혼자 토이프로젝트를 구성해서 만들어 보기로 했다."/>
+
+
+<link rel="canonical" href="https://philips413.github.io/post/tech/tech_2024041501/" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/css/index.min.6b36fefec2ed9f418034c92a2410b3c6970c05de2c1fa6751ca7da1b786b6e4f.css">
+
+
+
+
+
+
+
+
+
+  
+</head>
+<body class="flex flex-col min-h-screen w-full bg-slate-50 dark:bg-gray-800">
+  <header class="flex flex-none justify-center z-10">
+    <div class="flex flex-row gap justify-between w-full max-w-4xl lg:max-w-5xl h-12 mt-3">
+  <div class="flex-none ml-2 md:ml-0">
+    <a href="/" class="">
+      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/logo.svg" alt="logo">
+    </a>
+  </div>
+  <div class="flex-1"></div>
+  <div class="flex-none">
+    
+
+
+
+<nav class="h-full static">
+  <button id="navbar-menu-toggle" type="button" class="inline-flex items-center p-2 text-sm text-slate-800 dark:text-slate-200 rounded-lg md:hidden" aria-controls="navbar-menu" aria-expanded="false">
+    <span class="sr-only">Open main menu</span>
+    <i class="w-8 h-8">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 6l16 0" />
+  <path d="M4 12l16 0" />
+  <path d="M4 18l16 0" />
+</svg>
+
+    </i>
+  </button>
+  <div class="absolute md:static top-16 left-0 right-0 z-50 hidden w-full md:block md:w-auto" id="navbar-menu">
+    <ul class="flex flex-col mx-2 md:mx-0 md:flex-row md:border-0 rounded-sm md:rounded-full px-3 text-base font-medium text-slate-800 dark:text-slate-200 shadow-lg bg-white dark:bg-gray-600 shadow-slate-800/5 dark:shadow-slate-200/5 ring-1 ring-slate-900/5 dark:ring-slate-100/5">
+    
+        <li id="about" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600"
+            href="/about/" title="소개">소개</a>
+        </li>
+      
+    
+        <li id="archieve" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600"
+            href="/categories/%EB%8F%85%EC%84%9C/" title="독서">독서</a>
+        </li>
+      
+    
+        <li id="post" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600 text-emerald-600"
+            href="/post/" title="모든 글보기">모든 글보기</a>
+        </li>
+      
+    
+    </ul>
+  </div>
+</nav>
+
+
+  </div>
+  
+  <div class="flex-none mx-1"></div>
+  
+  <div class="flex-none md:hidden">
+    <a href=/search/ class="inline-flex items-center p-2 text-sm text-slate-800 dark:text-slate-200 rounded-lg" aria-controls="navbar-menu" aria-expanded="false">
+      <span class="sr-only">Search</span>
+      <i class="w-8 h-8">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+    <path d="M21 21l-6 -6" />
+</svg>
+
+      </i>
+    </a>
+  </div>
+  <div class="darkmode-toggle flex flex-none mr-2 md:mr-0">
+    <label for="darkmode-toggle" class="flex items-center px-3 cursor-pointer rounded-full bg-gray-100 dark:bg-gray-600" title="Toggle dark mode">
+      <input name="darkmode-toggle" id="darkmode-toggle" type="checkbox" class="sr-only peer" aria-label="Toggle dark mode">
+      <div class="group flex flex-row gap-1 justify-center h-8 px-1 rounded-full bg-white dark:bg-gray-700">
+        <i class="h-6 w-6 flex-none rounded-full bg-yellow-400 place-self-center peer-checked:group-[]:invisible">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brightness-down" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+   <path d="M12 5l0 .01"></path>
+   <path d="M17 7l0 .01"></path>
+   <path d="M19 12l0 .01"></path>
+   <path d="M17 17l0 .01"></path>
+   <path d="M12 19l0 .01"></path>
+   <path d="M7 17l0 .01"></path>
+   <path d="M5 12l0 .01"></path>
+   <path d="M7 7l0 .01"></path>
+</svg>
+
+        </i>
+        <i class="h-6 w-6 flex-none rounded-full place-self-center invisible peer-checked:group-[]:visible">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-stars" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+   <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2"></path>
+   <path d="M19 11h2m-1 -1v2"></path>
+</svg>
+
+        </i>
+      </div>
+    </label>
+  </div>
+</div>
+
+  </header>
+  <main class="flex flex-auto justify-center">
+    
+<div class="w-full max-w-4xl lg:max-w-5xl">
+  <div class="flex flex-col gap-y-3 p-6 mt-6 mx-2 md:mx-0 rounded-lg shadow-md bg-white dark:bg-gray-700">
+    <h1 class="text-4xl font-semibold text-slate-800 dark:text-slate-100">
+      <a href="/post/tech/tech_2024041501/">MSA구조 커뮤니티 시스템 구축하기</a>
+    </h1>
+
+    
+    <h2 class="my-4 text-large text-slate-600 dark:text-slate-300">
+      프로그래밍을 한 지, 한 달이 지나가고 있어서 좀이 쑤셔서 혼자 토이프로젝트를 구성해서 만들어 보기로 했다.
+    </h2>
+    
+    
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+      
+      <li>
+        <a href="/categories/%EA%B0%9C%EB%B0%9C/"
+          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
+          개발
+        </a>
+      </li>
+      
+    
+    
+      
+      <li>
+        <a href="/tags/%EA%B8%B0%EC%88%A0/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">기술</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags/%EB%B6%84%EC%84%9D/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">분석</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+    <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-04-15T00:00:00&#43;00:00">
+      2024-04-15
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      One minute to read
+    </span>
+  </div>
+</div>
+
+
+    
+      
+      <section class="prose prose-slate dark:prose-invert w-full max-w-4xl lg:max-w-5xl mt-6">
+        <h2>Table of Contents</h2>
+        <aside><nav id="TableOfContents">
+  <ul>
+    <li><a href="#좀이-쑤셔서-혼자-북치고-장구치기">좀이 쑤셔서 혼자 북치고 장구치기</a></li>
+    <li><a href="#msa-구조의-커뮤니티-시스템-구축">MSA 구조의 커뮤니티 시스템 구축</a></li>
+    <li><a href="#클라이언트-관점에서-요청하기">클라이언트 관점에서 요청하기</a></li>
+  </ul>
+</nav></aside>
+      </section>
+      
+    
+
+    <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
+      <h2 id="좀이-쑤셔서-혼자-북치고-장구치기">좀이 쑤셔서 혼자 북치고 장구치기</h2>
+<p>한 달간의 쉼이 주어지고 나서, 이 전에 쉬면서 하지 못했던 것들을 서서히 완수해 나아갔다.</p>
+<p>수영하기, 멍때리기, 책 읽기, 사람구경하기, 해외여행하기 등등&hellip;</p>
+<p>혼자 북치고 장구치는 토이프로젝트를 시작해볼려고 한다.</p>
+<h2 id="msa-구조의-커뮤니티-시스템-구축">MSA 구조의 커뮤니티 시스템 구축</h2>
+<p>레퍼런스 사이트로는 <a href="https://www.dcinside.com/" target="_blank" rel="noopener">디시인사이드</a>
+로 두고, 오픈 커뮤니티 시스템을 구축해보고 싶어졌다.</p>
+<p>거기에 맞는 나만의 정책들과 요구사항들을 더해서 만들어볼 생각이다.</p>
+<p>그럼 요구청사항부터 받아보자<br>
+<div class="not-prose">
+<figure>
+    <img src="https://media1.tenor.com/m/ampW8g8v-vMAAAAd/hack-khaby.gif"
+      alt="" 
+      loading="lazy"
+    >
+  </figure></div>
+</p>
+<h2 id="클라이언트-관점에서-요청하기">클라이언트 관점에서 요청하기</h2>
+<ol>
+<li>관리자 사이트와 클라이언 사이트가 별도로 존재하면 좋겠다.</li>
+<li>관리자 사이트에서 회원 등급들을 조정할수 있다.</li>
+<li>새로 생성되거나, 아니면 기존의 권한들이 합쳐질수도 있다.</li>
+<li>관리자 사이트에서 새로운 게시판을 만들수 있다.</li>
+<li>관리자 시스템에서 새로운 게시판마다 이미지 업로드할 것인지 말것인지를 옵션 둘수 있다.</li>
+<li>새로운 게시판이 생길 때마다 게시판 관리자를 지정할수 있다.</li>
+<li>한 사람이 2개 이상의 게시판을 관리할수 없다.</li>
+<li>일반 사용자는 임시저장할수 있다.</li>
+<li>일반 사용자여도 게시판에 작성할수 있는 권한이 존재할수도 있다.</li>
+<li>일반 사용자는 임시 저장 기한은 24시간이다.</li>
+<li>일반 사용자는 구글, 깃허브 로그인, 일반회원가얍 로그인 할수 있다.</li>
+<li>게시글에는 투표기능이 있었으면 좋겠다.</li>
+<li>댓글에 대댓글도 가능했으면 한다.</li>
+<li>업로드한 이미지는 업로드 하면 안되는 이미자가 존재한다.</li>
+<li>게시글마다 흥미로운 게시글이 있다면, 주변 이들에게 공유가 가능하다.</li>
+<li>게시글에 링크가 있다면, 썸네일을 표현되어 있으면 좋겠다.</li>
+<li>게시글이 작성될 때, 원하는 템플릿을 찾을 수 있다.</li>
+<li>나만의 템플릿을 만들어 놓고 사용할수 있다.</li>
+<li>템플릿을 공개하여 다른 사람들도 사용가능할수 있도록 한다.</li>
+<li>엑셀업로드하여 엑셀의 형식이 게시글에 그대로 나왔으면한다.</li>
+</ol>
+<hr>
+<p>지금 생각나는 대로 작성했지만 분석/설계를 하다가 보면 더 나올 것이다.</p>
+
+    </article>
+
+    
+
+
+
+  </div>
+</div>
+
+  </main>
+  <footer class="flex flex-none justify-center">
+    <section class="flex flex-col md:flex-row mx-2 md:mx-0 gap-2 md:gap-0 justify-between w-full max-w-4xl lg:max-w-5xl py-6 text-slate-500 dark:text-slate-300">
+  <div class="flex flex-row">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  </div>
+  <div class="grow"></div>
+  <div class="flex flex-row">
+    <i class="h-6 w-6 flex-none"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+   <path d="M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173"></path>
+</svg>
+</i> 2024 Philips413
+    
+  </div>
+  
+  <div class="flex flex-row">
+    <span class="ml-0 pl-0 md:ml-2 md:pl-2 border-l-0 md:border-l border-slate-300 dark:border-slate-400">
+      Powered by <a href="https://gohugo.io" target="_blank" rel="noopener" class="underline">Hugo</a> <span class="text-red-600">&hearts;</span> <a href="https://github.com/tomowang/hugo-theme-tailwind" target="_blank" rel="noopener" class="underline">Tailwind</a>
+    </span>
+  </div>
+  
+</section>
+
+  </footer>
+  <script src="/main.min.c6372b6836971865bd94bfde974748aca8415824a2facab6ccd66a87384bfacb.js"></script>
+
+
+
+
+</body>
+</html>

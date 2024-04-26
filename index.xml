@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
-    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://philips413.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>한 달간 신혼여행_치앙마이(2)</title>
+      <link>https://philips413.github.io/post/family/familly_2024042101/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://philips413.github.io/post/family/familly_2024042101/</guid>
+      <description>타페게이트의 새로운 숙소 이 전의 숙소는 치앙마이의 외곽에 위치해 있어서 한 적하게 사색을 하거나 자연의 소리를 들을수가 있어서 정말 좋았었다.&#xA;그렇지만, 게스트 하우스에 우리만 머물고 있어서 게스트 하우스의 스탭들이 우리를 많이 의식하고 있음을 느끼면서 부담감이 더해지기 시작했다.&#xA;우리를 위해서 조식을 준비하고 시간이 되면 룸서비스를 하는 것들이 서비스를 받고 있었지만 묘하게 불편하고 부담스러운 것은 무엇이었을까?&#xA;새로운 숙소는 치앙마이 올드시티의 한 가운데 위치해 있으며, 이 곳에는 우리 외에도 투숙객들이 많이 있어서 그나마 나았다.</description>
+    </item>
+    <item>
+      <title>MSA구조 커뮤니티 시스템 구축하기</title>
+      <link>https://philips413.github.io/post/tech/tech_2024041501/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://philips413.github.io/post/tech/tech_2024041501/</guid>
+      <description>좀이 쑤셔서 혼자 북치고 장구치기 한 달간의 쉼이 주어지고 나서, 이 전에 쉬면서 하지 못했던 것들을 서서히 완수해 나아갔다.&#xA;수영하기, 멍때리기, 책 읽기, 사람구경하기, 해외여행하기 등등&amp;hellip;&#xA;혼자 북치고 장구치는 토이프로젝트를 시작해볼려고 한다.&#xA;MSA 구조의 커뮤니티 시스템 구축 레퍼런스 사이트로는 디시인사이드 로 두고, 오픈 커뮤니티 시스템을 구축해보고 싶어졌다.&#xA;거기에 맞는 나만의 정책들과 요구사항들을 더해서 만들어볼 생각이다.&#xA;그럼 요구청사항부터 받아보자&#xA;클라이언트 관점에서 요청하기 관리자 사이트와 클라이언 사이트가 별도로 존재하면 좋겠다. 관리자 사이트에서 회원 등급들을 조정할수 있다.</description>
+    </item>
     <item>
       <title>한 달간 신혼여행_베트남, 치앙마이</title>
       <link>https://philips413.github.io/post/family/family_2024041401/</link>

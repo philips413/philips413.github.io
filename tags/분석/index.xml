@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>분석 on PHILIPS&#39;413의 별로 안 진지한 블로그</title>
+    <link>https://philips413.github.io/tags/%EB%B6%84%EC%84%9D/</link>
+    <description>Recent content in 분석 on PHILIPS&#39;413의 별로 안 진지한 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Philips413</copyright>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://philips413.github.io/tags/%EB%B6%84%EC%84%9D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MSA구조 커뮤니티 시스템 구축하기</title>
+      <link>https://philips413.github.io/post/tech/tech_2024041501/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://philips413.github.io/post/tech/tech_2024041501/</guid>
+      <description>좀이 쑤셔서 혼자 북치고 장구치기 한 달간의 쉼이 주어지고 나서, 이 전에 쉬면서 하지 못했던 것들을 서서히 완수해 나아갔다.&#xA;수영하기, 멍때리기, 책 읽기, 사람구경하기, 해외여행하기 등등&amp;hellip;&#xA;혼자 북치고 장구치는 토이프로젝트를 시작해볼려고 한다.&#xA;MSA 구조의 커뮤니티 시스템 구축 레퍼런스 사이트로는 디시인사이드 로 두고, 오픈 커뮤니티 시스템을 구축해보고 싶어졌다.&#xA;거기에 맞는 나만의 정책들과 요구사항들을 더해서 만들어볼 생각이다.&#xA;그럼 요구청사항부터 받아보자&#xA;클라이언트 관점에서 요청하기 관리자 사이트와 클라이언 사이트가 별도로 존재하면 좋겠다. 관리자 사이트에서 회원 등급들을 조정할수 있다.</description>
+    </item>
+  </channel>
+</rss>
