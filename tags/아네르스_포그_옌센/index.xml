@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>아네르스_포그_옌센 on PHILIPS&#39;413의 별로 안 진지한 블로그</title>
-    <link>https://philips413.github.io/tags/%EC%95%84%EB%84%A4%EB%A5%B4%EC%8A%A4_%ED%8F%AC%EA%B7%B8_%EC%98%8C%EC%84%BC/</link>
+    <link>http://localhost:1313/tags/%EC%95%84%EB%84%A4%EB%A5%B4%EC%8A%A4_%ED%8F%AC%EA%B7%B8_%EC%98%8C%EC%84%BC/</link>
     <description>Recent content in 아네르스_포그_옌센 on PHILIPS&#39;413의 별로 안 진지한 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
     <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://philips413.github.io/tags/%EC%95%84%EB%84%A4%EB%A5%B4%EC%8A%A4_%ED%8F%AC%EA%B7%B8_%EC%98%8C%EC%84%BC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%EC%95%84%EB%84%A4%EB%A5%B4%EC%8A%A4_%ED%8F%AC%EA%B7%B8_%EC%98%8C%EC%84%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[독서] 가짜노동</title>
-      <link>https://philips413.github.io/post/book/book_2024040801/</link>
+      <link>http://localhost:1313/post/book/book_2024040801/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://philips413.github.io/post/book/book_2024040801/</guid>
+      <guid>http://localhost:1313/post/book/book_2024040801/</guid>
       <description>매너리즘 2023년 한 프로젝트에 투입되어서 일을 할 때, 이 전엔 느껴보지 못한 무기력감으로 하고자 하는 마음이 들지 않았다.&#xA;다른 사람들과는 다르게 나의 일을 사랑했고 일에 대한 회의가 들더라도 금방 회복했었지만 이번엔 회복이 빠르게 되지 않았다.&#xA;그러다가 이 책이 미디어에 노출이 되어서 꼭 한번은 읽어야겠다고 마음먹고 있었고, 우연찮게 선물을 받게 되었다.&#xA;바로 책을 읽기엔 지금 당장 처리해야 할 것 들이 너무 많아서 미루다가&#xA;기회가 있어서 책을 집어 들고 읽게 되었다.&#xA;좋지 못한 사이클의 생성 기계가 만들어지기 전에 인류에게는 노동은 신성한 것이고, 땀을 흘려서 일을 해서 산물을 얻어 내는 것은 당연한 것이었다.</description>
     </item>
   </channel>

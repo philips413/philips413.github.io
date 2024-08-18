@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>인문학 on PHILIPS&#39;413의 별로 안 진지한 블로그</title>
-    <link>https://philips413.github.io/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/</link>
+    <link>http://localhost:1313/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/</link>
     <description>Recent content in 인문학 on PHILIPS&#39;413의 별로 안 진지한 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
     <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://philips413.github.io/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[독서] 가짜노동</title>
-      <link>https://philips413.github.io/post/book/book_2024040801/</link>
+      <link>http://localhost:1313/post/book/book_2024040801/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://philips413.github.io/post/book/book_2024040801/</guid>
+      <guid>http://localhost:1313/post/book/book_2024040801/</guid>
       <description>매너리즘 2023년 한 프로젝트에 투입되어서 일을 할 때, 이 전엔 느껴보지 못한 무기력감으로 하고자 하는 마음이 들지 않았다.&#xA;다른 사람들과는 다르게 나의 일을 사랑했고 일에 대한 회의가 들더라도 금방 회복했었지만 이번엔 회복이 빠르게 되지 않았다.&#xA;그러다가 이 책이 미디어에 노출이 되어서 꼭 한번은 읽어야겠다고 마음먹고 있었고, 우연찮게 선물을 받게 되었다.&#xA;바로 책을 읽기엔 지금 당장 처리해야 할 것 들이 너무 많아서 미루다가&#xA;기회가 있어서 책을 집어 들고 읽게 되었다.&#xA;좋지 못한 사이클의 생성 기계가 만들어지기 전에 인류에게는 노동은 신성한 것이고, 땀을 흘려서 일을 해서 산물을 얻어 내는 것은 당연한 것이었다.</description>
     </item>
     <item>
       <title>[독서록] 대화의 밀도</title>
-      <link>https://philips413.github.io/post/book/book_2023050501/</link>
+      <link>http://localhost:1313/post/book/book_2023050501/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://philips413.github.io/post/book/book_2023050501/</guid>
+      <guid>http://localhost:1313/post/book/book_2023050501/</guid>
       <description>생일선물 이기주의 시리즈로도 충분히 대화와 어떻게 말을 해야하는지에 대한 트레이닝(?)을 잘 해오고 있다고 생각했다. 생각지도 못한 생일선물로 새로운 책을 받았고, 나는 이책을 통해서 대화라던지 커뮤니케이션에 대해서 배워보고자 한다.&#xA;사실 최근들어서 나의 커뮤니케이션에 문제가 있다고 생각이 든것도 좀 있다. 마인드의 문제 일수도 있지만, 누군가와 대화를 잘 하기가 어렵다. 책을 통해서 타인과 대화함에 있어서 문제를 해결해보고자 한다.&#xA;상대방과 대화하기 #1 말하는 것보다 들어주기 작가는 상대방과 말하는 것에 대한 비율은 7:3이라고한다. 말하는 것이 7이 아닌 들어주는 것이 7이며 말하는 것이 3인 비율로써 상대방과 대화를 해야한다고 한다.</description>
     </item>
   </channel>
