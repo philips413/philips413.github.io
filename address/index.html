@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청년마을::크블 주소 할당</title>
+    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=tyec86tpn5&submodules=panorama,geocoder,drawing,visualization"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.5/xlsx.full.min.js"></script>
+
+    <script>
+        let STATIC_MAP = "";
+        const MARKERS = [];
+        const INFO_WINDOWS = [];
+        window.onload = function () {
+            STATIC_MAP = new naver.maps.Map("map", {
+                center: new naver.maps.LatLng(37.5487993, 126.9366973),
+                zoom: 15,
+                mapTypeControl: true
+            });
+
+        }
+
+        function loadFile() {
+            document.getElementById("listUp").click();        
+        }
+
+        function haversineDistance(lat2, lon2) {
+            const lat1 = 37.5487993;
+            const lon1 = 126.9366973;
+            const R = 6371; // 지구의 반지름 (단위: km)
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            const distance = R * c; // 거리 (단위: km)
+            return distance;
+        }
+
+        function loadCsvFile(obj) {
+            const reader = new FileReader();
+            reader.onload = async function (e) {
+                const data = new Uint8Array(e.target.result);
+                const workbook = XLSX.read(data, { type: 'array' });
+                const firstSheetName = workbook.SheetNames[0];
+                const worksheet = workbook.Sheets[firstSheetName];
+                const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+
+                for(const item of jsonData.slice(1)) {
+                    await naver.maps.Service.geocode({ query: item[7]},
+                        function(status, response) {
+                            if (status !== naver.maps.Service.Status.OK) {
+                                return alert('Something wrong!');
+                            }
+
+                            var result = response.v2, // 검색 결과의 컨테이너
+                                items = result.addresses; // 검색 결과의 배열
+
+                            // do Something
+                            if (items[0] !== null) {
+                                const marker = new naver.maps.Marker({
+                                    position: new naver.maps.LatLng(items[0].y, items[0].x),
+                                    map: STATIC_MAP,
+                                    title: item[1]
+                                });
+
+                                naver.maps.Event.addListener(marker, "click", function(e) {
+                                    INFO_WINDOWS.forEach(infoWindow => infoWindow.close());
+                                    INFO_WINDOWS[MARKERS.indexOf(marker)].open(STATIC_MAP, marker);
+                                });
+
+                                MARKERS.push(marker);
+                                const infoWindow = new naver.maps.InfoWindow({
+                                    content: `<h2>${item[1]}</h2><p>${item[7]}</p><br /><p>${item[8]}</p>`
+                                });
+                                INFO_WINDOWS.push(infoWindow);
+                                item[10] = `${haversineDistance(items[0].y,items[0].x).toFixed(2)}`;
+                            }
+                        });
+                }
+
+                setTimeout(() => {
+
+                    const table = document.querySelector("#promptTable");
+                    table.innerHTML = ""; // Clear previous table content
+
+                    // Create table header
+                    const headerRow = document.createElement("tr");
+                    jsonData[0].forEach(header => {
+                        const th = document.createElement("th");
+                        th.textContent = header;
+                        th.style = "border: 1px solid black; min-width: 100px";
+                        headerRow.appendChild(th);
+                    });
+                    const th = document.createElement("th");
+                    th.textContent = "광성고부터 거리(km)";
+                    th.style = "border: 1px solid black; min-width: 200px";
+                    headerRow.appendChild(th);
+                    table.appendChild(headerRow);
+
+                    // Create table rows
+                    const newList = jsonData.slice(1).sort((a, b) => a[10] - b[10]);
+                    for(const item of newList) {
+                        const tr = document.createElement("tr");
+                        for(let i = 0 ; i <= 10 ; i++) {
+                            const td = document.createElement("td");
+                            td.textContent = item[i];
+                            td.style = "border: 1px solid black; min-width: 100px";
+                            tr.appendChild(td);
+                        }
+                        table.appendChild(tr);
+                    }
+
+                }, 1000)
+            }
+            for(const item of obj.files) {
+                reader.readAsArrayBuffer(item);
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <h1>청년마을::크블 주소 할당</h1>
+
+    <button style="width:100%" onclick="loadFile()">엑셀 불러오기</button>
+    <p>* 템플릿에 맞게 넣어주셔야 합니다.!!! <a href="https://philips413.github.io/address/template.xlsx">[템플릿 다운로드]</a></p>
+    <input type="file" id="listUp" accept=".xlsx" style="display: none" onchange="loadCsvFile(this)" />
+    <br />
+    <div id="map" style="width: 100%; height: 500px"></div>
+    <div id="prompt">
+        <table id="promptTable" style="border: 1px solid black; width: 100%; min-height: 100px"></table>
+    </div>
+
+</body>
+</html>
