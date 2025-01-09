@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>분석 on PHILIPS&#39;413의 별로 안 진지한 블로그</title>
-    <link>http://localhost:1313/tags/%EB%B6%84%EC%84%9D/</link>
+    <link>https://philips413.github.io/tags/%EB%B6%84%EC%84%9D/</link>
     <description>Recent content in 분석 on PHILIPS&#39;413의 별로 안 진지한 블로그</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
     <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%EB%B6%84%EC%84%9D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://philips413.github.io/tags/%EB%B6%84%EC%84%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MSA구조 커뮤니티 시스템 구축하기</title>
-      <link>http://localhost:1313/post/tech/tech_2024041501/</link>
+      <link>https://philips413.github.io/post/tech/tech_2024041501/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/tech/tech_2024041501/</guid>
-      <description>좀이 쑤셔서 혼자 북치고 장구치기 한 달간의 쉼이 주어지고 나서, 이 전에 쉬면서 하지 못했던 것들을 서서히 완수해 나아갔다.&#xA;수영하기, 멍때리기, 책 읽기, 사람구경하기, 해외여행하기 등등&amp;hellip;&#xA;혼자 북치고 장구치는 토이프로젝트를 시작해볼려고 한다.&#xA;MSA 구조의 커뮤니티 시스템 구축 레퍼런스 사이트로는 디시인사이드 로 두고, 오픈 커뮤니티 시스템을 구축해보고 싶어졌다.&#xA;거기에 맞는 나만의 정책들과 요구사항들을 더해서 만들어볼 생각이다.&#xA;그럼 요구청사항부터 받아보자&#xA;클라이언트 관점에서 요청하기 관리자 사이트와 클라이언 사이트가 별도로 존재하면 좋겠다. 관리자 사이트에서 회원 등급들을 조정할수 있다.</description>
+      <guid>https://philips413.github.io/post/tech/tech_2024041501/</guid>
+      <description>&lt;h2 id=&#34;좀이-쑤셔서-혼자-북치고-장구치기&#34;&gt;좀이 쑤셔서 혼자 북치고 장구치기&lt;/h2&gt;&#xA;&lt;p&gt;한 달간의 쉼이 주어지고 나서, 이 전에 쉬면서 하지 못했던 것들을 서서히 완수해 나아갔다.&lt;/p&gt;&#xA;&lt;p&gt;수영하기, 멍때리기, 책 읽기, 사람구경하기, 해외여행하기 등등&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;혼자 북치고 장구치는 토이프로젝트를 시작해볼려고 한다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;msa-구조의-커뮤니티-시스템-구축&#34;&gt;MSA 구조의 커뮤니티 시스템 구축&lt;/h2&gt;&#xA;&lt;p&gt;레퍼런스 사이트로는 &lt;a href=&#34;https://www.dcinside.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;디시인사이드&lt;/a&gt;&#xA;로 두고, 오픈 커뮤니티 시스템을 구축해보고 싶어졌다.&lt;/p&gt;&#xA;&lt;p&gt;거기에 맞는 나만의 정책들과 요구사항들을 더해서 만들어볼 생각이다.&lt;/p&gt;&#xA;&lt;p&gt;그럼 요구청사항부터 받아보자&lt;br&gt;&#xA;&lt;div class=&#34;not-prose&#34;&gt;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;https://media1.tenor.com/m/ampW8g8v-vMAAAAd/hack-khaby.gif&#34;&#xA;      alt=&#34;&#34; &#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&#xA;  &lt;/figure&gt;&lt;/div&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;클라이언트-관점에서-요청하기&#34;&gt;클라이언트 관점에서 요청하기&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;관리자 사이트와 클라이언 사이트가 별도로 존재하면 좋겠다.&lt;/li&gt;&#xA;&lt;li&gt;관리자 사이트에서 회원 등급들을 조정할수 있다.&lt;/li&gt;&#xA;&lt;li&gt;새로 생성되거나, 아니면 기존의 권한들이 합쳐질수도 있다.&lt;/li&gt;&#xA;&lt;li&gt;관리자 사이트에서 새로운 게시판을 만들수 있다.&lt;/li&gt;&#xA;&lt;li&gt;관리자 시스템에서 새로운 게시판마다 이미지 업로드할 것인지 말것인지를 옵션 둘수 있다.&lt;/li&gt;&#xA;&lt;li&gt;새로운 게시판이 생길 때마다 게시판 관리자를 지정할수 있다.&lt;/li&gt;&#xA;&lt;li&gt;한 사람이 2개 이상의 게시판을 관리할수 없다.&lt;/li&gt;&#xA;&lt;li&gt;일반 사용자는 임시저장할수 있다.&lt;/li&gt;&#xA;&lt;li&gt;일반 사용자여도 게시판에 작성할수 있는 권한이 존재할수도 있다.&lt;/li&gt;&#xA;&lt;li&gt;일반 사용자는 임시 저장 기한은 24시간이다.&lt;/li&gt;&#xA;&lt;li&gt;일반 사용자는 구글, 깃허브 로그인, 일반회원가얍 로그인 할수 있다.&lt;/li&gt;&#xA;&lt;li&gt;게시글에는 투표기능이 있었으면 좋겠다.&lt;/li&gt;&#xA;&lt;li&gt;댓글에 대댓글도 가능했으면 한다.&lt;/li&gt;&#xA;&lt;li&gt;업로드한 이미지는 업로드 하면 안되는 이미자가 존재한다.&lt;/li&gt;&#xA;&lt;li&gt;게시글마다 흥미로운 게시글이 있다면, 주변 이들에게 공유가 가능하다.&lt;/li&gt;&#xA;&lt;li&gt;게시글에 링크가 있다면, 썸네일을 표현되어 있으면 좋겠다.&lt;/li&gt;&#xA;&lt;li&gt;게시글이 작성될 때, 원하는 템플릿을 찾을 수 있다.&lt;/li&gt;&#xA;&lt;li&gt;나만의 템플릿을 만들어 놓고 사용할수 있다.&lt;/li&gt;&#xA;&lt;li&gt;템플릿을 공개하여 다른 사람들도 사용가능할수 있도록 한다.&lt;/li&gt;&#xA;&lt;li&gt;엑셀업로드하여 엑셀의 형식이 게시글에 그대로 나왔으면한다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;지금 생각나는 대로 작성했지만 분석/설계를 하다가 보면 더 나올 것이다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
