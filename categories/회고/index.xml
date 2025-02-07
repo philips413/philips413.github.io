@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Philips413</copyright>
-    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://philips413.github.io/categories/%ED%9A%8C%EA%B3%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[회고록] 虎視牛步(호시우보)</title>
+      <link>https://philips413.github.io/post/retro/retro_2025020701/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://philips413.github.io/post/retro/retro_2025020701/</guid>
+      <description>&lt;h3 id=&#34;사물을-볼때는-호랑이처럼-예리하게-보고-행동은-소처럼-신중하게-하라&#34;&gt;“사물을 볼때는 호랑이처럼 예리하게 보고 행동은 소처럼 신중하게 하라”&lt;/h3&gt;&#xA;&lt;p&gt;새로운 한 해를 맞이할때마다 나는 늘 기대감과 올 한해는 무엇을 어떻게 해볼까라는 기대감으로 맞이하곤 한다. 버킷리스트를 작성하거나 혹은 호기롭게 프로그램을 한 10개 정도는 만들어서 세상을 뒤엎을 거라는 상상도 했었다. 그렇지만, 올해부터는 신중하게 현실적으로 가능한 목표를 세워두고 실행해야 할것만 같아서 예리하게 보는 호랑이 처럼 신중하게 걷는 소처럼 계획을 세워두고 실행하는 1월이었다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-토이프로젝트-시도&#34;&gt;👍 토이프로젝트 시도&lt;/h2&gt;&#xA;&lt;p&gt;오늘 기준으로 해서 지금까지 시도한 토이프로젝트는 총 2개가 있다. 하나는 웹 게임 &lt;em&gt;&amp;lt;라이어게임&amp;gt;&lt;/em&gt;, 원조집 리스트 서비스 &lt;em&gt;&amp;lt;여기알아?&amp;gt;&lt;/em&gt; 시스템이다.&lt;br&gt;&#xA;&lt;em&gt;&amp;lt;라이어게임&amp;gt;&lt;/em&gt; 에서는 개념적으로 알고만 있었던 웹소켓을 서버와 클라이언트단 까지 연결해서 구현해보는 건 이번이 처음이었다. 개념적으로만 알고 있다가 구현할려니 막막함에 “와.. 나도 물경력의 물때가 있다.” 라는 것을 느끼면서 점점 AI시대에 대비해야 겠다고 마음먹었다. 구현을 하면서 많은 검색을 해야했고, 개념적으로도 비어져 있는 부분들도 보다보니까 많이 부끄러웠다.&lt;br&gt;&#xA;&lt;em&gt;&amp;lt;여기알아?&amp;gt;&lt;/em&gt; 에서는 스프링+리액트 하나의 프로젝트로 생성하는 것을 배웠다. 이도 역시 블로그를 통해서 사람들이 구현해 하는 것만 구경했었지, 내가 세팅을 해서 진행 해보는것은 처음이다. 하나 확실한 것은 스프링 문법 뿐만 아니라 리액트+타입스크립트의 문법또한 결점이 없어야만 빌드가 된다는 것도 조금은 성가신 부분이지만, 하나의 프로젝트가 완성도 있게 빌드가 될 땐 좋은 점도 있다는 장점도 있는 것 같다.&#xA;구현해 놓은 시스템들은 클라우드 서비스에 올리진 않고, 집에 따로 구축해 놓은 시스템을 통해서 외부로 서비스를 해보고 있다.&lt;br&gt;&#xA;주변이들에게 입코딩 하는 것으로 실력을 증명하는 것 보다는 이렇게 아이디어를 구현함으로써 좀더 당당하게 이야기 할수 있는 것이 좋은 것 같다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>[회고록] 2024년 한 해를 되돌아보며</title>
       <link>https://philips413.github.io/post/retro/retro_2025010901/</link>
