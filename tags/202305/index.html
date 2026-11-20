@@ -16,112 +16,65 @@
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preload" href="/fonts/Galmuri11.woff2" as="font" type="font/woff2" crossorigin>
+<script>try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 
-<link rel="stylesheet" href="/css/workbench.min.e43e3ae1aac7d273fa2c13cebad15d60b6fd67abb0b80369ac3daf332020b988.css" integrity="sha256-5D464arH0nP6LBPOutFdYLb9Z6uwuANprD2vMyAguYg=">
+<link rel="stylesheet" href="/css/workbench.min.4ce63980b10ddb361e260378e142e45847a8bb9ecb661308004623630a520e40.css" integrity="sha256-TOY5gLEN2zYeJgN44ULkWEeou57LZhMIAEYjYwpSDkA=">
 
 </head>
 <body>
-<div class="sky" aria-hidden="true"><div class="clouds far"></div><div class="clouds near"></div></div>
-<header class="menubar wrap">
-  <a class="brand" href="/"><img src="/favicon.svg" width="16" height="16" alt="">슬기로운 .dev생활</a>
-  <nav aria-label="주 메뉴">
-    <a href="/about/">소개</a>
-    <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
-    <a href="/post/">모든 글보기</a>
-  </nav>
-  <div class="search" role="search">
-    <label class="sr" for="q">글 검색</label>
-    <input id="q" type="search" placeholder="검색…" autocomplete="off" aria-controls="results">
-    <div class="results" id="results" role="region" aria-live="polite" hidden></div>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/">슬기로운 <code>.dev</code>생활</a>
+    <nav class="menu" aria-label="주 메뉴">
+      <a href="/post/">글</a>
+      <a href="/categories/%EB%8F%85%EC%84%9C/">독서</a>
+      <a href="/about/">소개</a>
+    </nav>
+    <div class="search" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label class="sr" for="q">글 검색</label>
+      <input id="q" type="search" placeholder="글 검색" autocomplete="off" aria-controls="results">
+      <span class="kbd" aria-hidden="true">/</span>
+      <div class="results" id="results" role="region" aria-live="polite" hidden></div>
+    </div>
+    <button class="icon-btn" id="theme" type="button" aria-label="다크 모드 전환">
+      <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
   </div>
-  <time class="clock" id="clock" datetime="2026-11-17">2026.11.17</time>
 </header>
 
-<div class="desk wrap">
-  <nav class="icons" aria-label="카테고리">
-  <a class="ico" href="/categories/%EC%97%90%EC%84%B8%EC%9D%B4/">
-    <span class="folder" aria-hidden="true"><span class="n">8</span></span>
-    <span class="lbl">에세이<span class="sr"> (8개)</span></span>
-  </a>
-  <a class="ico" href="/categories/%EB%8F%85%EC%84%9C/">
-    <span class="folder" aria-hidden="true"><span class="n">6</span></span>
-    <span class="lbl">독서<span class="sr"> (6개)</span></span>
-  </a>
-  <a class="ico" href="/categories/%EC%83%9D%ED%99%9C/%EC%97%AC%EA%B0%80/">
-    <span class="folder" aria-hidden="true"><span class="n">5</span></span>
-    <span class="lbl">생활/여가<span class="sr"> (5개)</span></span>
-  </a>
-  <a class="ico" href="/categories/%ED%9A%8C%EA%B3%A0/">
-    <span class="folder" aria-hidden="true"><span class="n">4</span></span>
-    <span class="lbl">회고<span class="sr"> (4개)</span></span>
-  </a>
-</nav>
+<main id="main" class="wrap"><header class="list-head">
+  <p class="eyebrow">태그</p>
+  <h1>#202305</h1>
+  <p>1편의 글</p>
+</header>
 
-  <main class="main" id="main">
-<section class="window" aria-labelledby="list-title">
-  <div class="titlebar"><span class="box"></span><h1 class="t" id="list-title">~/blog/tags/202305</h1><span class="box"></span></div>
-  <div class="toolbar"><span>1개 항목 · 최근 작성순</span><span>1 / 1 페이지</span></div>
-  <div class="scroll">
-    <table class="files">
-      <thead><tr><th scope="col">이름</th><th scope="col" class="hide-s">분류</th><th scope="col">작성일</th></tr></thead>
-      <tbody>
-        <tr>
-          <td><div class="item"><div class="txt">
-            <a class="name" href="/post/retro/retro_2023060101/"><span class="doc" aria-hidden="true"></span>[회고록] 2023년 5월-🌈각양각색</a>
-            <span class="ex">5월에는 날씨가 풀려서 정말 여름과도 같은 날씨를 만끽했다. 놀러가기 좋은 날들이 이어졌고, …</span></div></div></td>
-          <td class="hide-s cat">회고</td>
-          <td class="date"><time datetime="2023-06-01">2023.06.01</time></td>
-        </tr>
-      </tbody>
-    </table>
+<ul class="grid">
+  <li class="card">
+    <div class="card-body">
+      <p class="meta"><a class="cat" href="/categories/%ED%9A%8C%EA%B3%A0/">회고</a><time datetime="2023-06-01">2023.06.01</time>
+      </p>
+      <h2 class="card-title"><a href="/post/retro/retro_2023060101/">[회고록] 2023년 5월-🌈각양각색</a></h2>
+      <p class="card-ex">5월에는 날씨가 풀려서 정말 여름과도 같은 날씨를 만끽했다. 놀러가기 좋은 날들이 이어졌고, 정말 일하기에 아까운 날들이 많이 있었지만 프로젝트가 한창인 지금은 밖으로 나가서 놀기엔 너무 바쁜 나날들이 이어져갔다. 프로젝트와 상관없이 나는 늘 더 나아 …</p>
+      <p class="card-tags"><a href="/tags/%ED%9A%8C%EA%B3%A0%EB%A1%9D/">#회고록</a><a href="/tags/202305/">#202305</a></p>
+    </div>
+  </li>
+</ul>
+
+
+
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <span>© 2024–2026 Philips413</span>
+    <span>Hugo로 만들고 GitHub Pages로 배포 · <a href="/index.xml">RSS</a></span>
   </div>
-  <div class="status">
-    <span>슬기로운 .dev생활</span>
-    
+</footer>
 
-  </div>
-</section>
-
-  </main>
-  <aside class="side" aria-label="보조 정보">
-    <div class="buddy-lane" aria-hidden="true"><span class="buddy"></span></div><section class="window" aria-label="시리즈">
-  <div class="titlebar"><span class="box"></span><span class="t">series/</span><span class="box"></span></div>
-  <ul class="list">
-    <li><a href="/series/%EA%B2%B0%ED%98%BC%EC%9D%BC%EA%B8%B0/"><span>▸ 결혼일기</span><small>×5</small></a></li>
-  </ul>
-</section>
-<section class="window" aria-label="태그">
-  <div class="titlebar"><span class="box"></span><span class="t">tags/</span><span class="box"></span></div>
-  <div class="tagcloud">
-    <a href="/tags/%EC%97%90%EC%84%B8%EC%9D%B4/">에세이<small>8</small></a>
-    <a href="/tags/%EA%B2%B0%ED%98%BC/">결혼<small>5</small></a>
-    <a href="/tags/%EA%B2%B0%ED%98%BC%EC%9D%BC%EA%B8%B0/">결혼일기<small>5</small></a>
-    <a href="/tags/%ED%9A%8C%EA%B3%A0%EB%A1%9D/">회고록<small>4</small></a>
-    <a href="/tags/%EC%9D%B8%EB%AC%B8%ED%95%99/">인문학<small>2</small></a>
-    <a href="/tags/%EC%A2%85%EA%B5%90/">종교<small>2</small></a>
-    <a href="/tags/202305/" class="cur">202305<small>1</small></a>
-    <a href="/tags/2024/">2024<small>1</small></a>
-    <a href="/tags/202407/">202407<small>1</small></a>
-    <a href="/tags/2025/">2025<small>1</small></a>
-    <a href="/tags/%EA%B3%BC%ED%95%99/">과학<small>1</small></a>
-    <a href="/tags/%EA%B8%B0%EB%8F%85%EA%B5%90/">기독교<small>1</small></a>
-    <a href="/tags/%EA%B8%B0%EC%88%A0/">기술<small>1</small></a>
-    <a href="/tags/%EA%B9%80%EB%8F%84%ED%98%84/">김도현<small>1</small></a>
-    <a href="/tags/%EB%8D%B0%EB%8B%88%EC%8A%A4_%EB%87%8C%EB%A5%B4%EB%A7%88%EB%A5%B4%ED%81%AC/">데니스_뇌르마르크<small>1</small></a>
-    <a href="/tags/%EB%A5%98%EC%9E%AC%EC%96%B8/">류재언<small>1</small></a>
-    <a href="/tags/%EB%AF%B8%ED%81%AC/">미크<small>1</small></a>
-    <a href="/tags/%EB%B0%B1%EC%8A%B9%EB%AF%BC/">백승민<small>1</small></a>
-    <a href="/tags/%EC%95%84%EB%84%A4%EB%A5%B4%EC%8A%A4_%ED%8F%AC%EA%B7%B8_%EC%98%8C%EC%84%BC/">아네르스_포그_옌센<small>1</small></a>
-    <a href="/tags/%EC%9C%8C%EB%A6%AC%EC%97%84%ED%8F%B4%EC%98%81/">윌리엄폴영<small>1</small></a>
-    <a href="/tags/%EC%B2%9C%EC%A3%BC%EA%B5%90/">천주교<small>1</small></a>
-  </div>
-</section>
-
-  </aside>
-</div>
-<footer class="foot wrap">© 2024–2026 Philips413 · Powered by <a href="https://gohugo.io/">Hugo</a> · 글꼴 <a href="https://github.com/quiple/galmuri">Galmuri</a></footer>
-
-<script src="/js/workbench.min.0443b69b6e11881dc5a1c15f64b1210db5d0df0993ef7925e7788e2695ebba05.js" integrity="sha256-BEO2m24RiB3FocFfZLEhDbXQ3wmT73kl53iOJpXrugU=" data-index="/index.json" defer></script>
+<script src="/js/workbench.min.da952304c9e84cf0e83241c131c1d27fca474d8da24187b9dc554056791d79dd.js" integrity="sha256-2pUjBMnoTPDoMkHBMcHSf8pHTY2iQYe53FVAVnkded0=" data-index="/index.json" defer></script>
 </body>
 </html>

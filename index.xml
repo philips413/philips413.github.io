@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>ko</language>
     <copyright>Philips413</copyright>
-    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:04:58 +0900</lastBuildDate>
     <atom:link href="https://philips413.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[에세이] AI시대</title>
+      <link>https://philips413.github.io/post/essay/essay_2026111701/</link>
+      <pubDate>Tue, 17 Nov 2026 23:04:58 +0900</pubDate>
+      <guid>https://philips413.github.io/post/essay/essay_2026111701/</guid>
+      <description>&lt;h3 id=&#34;ai--x&#34;&gt;AI + x&lt;/h3&gt;&#xA;&lt;p&gt;TDD와 DDD를 넘어서 EDD BDD와 같은 용어들에 민감하던 시기가 있었다. 해당하는 내용에 대해서 미리 습득하지 않으면 시대에서 떨어진 개발자라는 이야기를 들을까봐 열심히 공부하고 새로운 개발책도 사서 보곤 했었다.&lt;/p&gt;&#xA;&lt;p&gt;결혼을 하고 나서부터는 그런 삶에서 일부러 거리를 두고 멀어지기 위한 노력을 해왔다. 천천히 알아가도 된다는 것과 충분히 더 나은 미래를 그릴수 있다고 내 자신을 채찍질하지 않고 있었다. 그러다가 ChatGPT가 나오게 되오면서 매우 빠른 속도로 AI가 모든 세상에 접목되고 다양한 분야를 정복하기 시작하면서 약간 멀어지는 게 아니라 완전히 뒤쳐질것만 같은 위기감이 들어서, 다시 블로그를 시작하고 개발공부도 놓으면 안되겠다고 마음을 먹게 되었다.&#xA;잠시 휴가차 서점에 들렀는데 많은 분야에서 AI를 대비하고 연구하고 있는 것을 보게되었다.&#xA;심지어 AGI에 대한 내용을 다루는 것도 보곤했다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>[회고록] 虎視牛步(호시우보)</title>
       <link>https://philips413.github.io/post/retro/retro_2025020701/</link>
